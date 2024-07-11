@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    /* tamaño caja mantener estable, quedará con el tamaño indicado y padding crecerá hacia adentro */
+}
+
+.containerPpal {
+    background-color: #212529;
+    color: white;
+    width: 300px;
+    height: 180px;
+}
+
+.lineTittle {
+    border: 1px solid #1d4650;
+    width: 90%;
+}
+
+.containerPesos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #6c757d;
+    color: #edf5f6;
+    width: 200px;
+    /* padding: 20px; */
+}
+
+.btnBuscar {
+    background-color: #0dcaf0;
+    color: white;
+    width: 150px;
+}
+
+
+
+
+
